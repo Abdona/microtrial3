@@ -1,3 +1,6 @@
+body{
+    width:auto;
+}
 #main-doc{
     display: flex;
     flex-direction: row;
@@ -11,3 +14,10 @@
     text-decoration: none;
     color: black;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: gainsboro;
+      font-size: smaller;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  }
