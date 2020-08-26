@@ -1,0 +1,13 @@
+#main-doc{
+    display: flex;
+    flex-direction: row;
+}
+#navigation{ 
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.nav-link h4,a{
+    text-decoration: none;
+    color: black;
+}
